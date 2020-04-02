@@ -88,8 +88,21 @@ nav#menu a:hover {
 .address a {
     font-family: 'Courier New', Courier, monospace;
 }
+
 @media screen and (min-width: 576px) {
     .address a {
         font-size: 35px;
+    }
+}
+
+#menu li {
+    display: inline;
+    margin: 10px;
+    padding: 4px;
+    -webkit-transition: background-color 1s;-o-transition: background-color 1s;transition: background-color 1s
+}
+@media screen and (min-width: 576px) {
+    #menu a {
+        font-size: 1.5em;
     }
 }
