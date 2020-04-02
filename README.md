@@ -1,7 +1,11 @@
-1 - link (URL) published portfolio website
+
+https://github.com/Pedro-Caiado/Pedro-Caiado.github.io
 
 
-2 - link GitHub repository (repo)
+<a href="https://pedro-caiado.github.io/">The Page</a>
+
+<a href="https://github.com/Pedro-Caiado/Pedro-Caiado.github.io">The Repository</a>
+
 
 
 My portfolio aims to publicize my career in the past, present and future. I aim to show employers and people my knowledge as a person and as a professional. Considering that, I'm starting a new career in 2020, I would like to create online mechanisms to publish my projects and my career in general. 
