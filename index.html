@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+    <nav id="menu">
+      <img src="logo.png" alt="logo" width="150" height="150">
+        <ul>
+          
+            <li><a href="pedro.html">home</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="lifestyle.html">LifeStyle</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <a href="https://www.linkedin.com/in/pedro-caiado-0383721a1/" class="fa fa-linkedin" target="_blank"></a>&nbsp;
+            <a href="https://github.com/Pedro-Caiado" class="fa fa-github" target="_blank"></a>
+        </ul>
+    </nav>
+   
+    
+    <h2>Automatic Slideshow</h2>
+    <p>Change image every 2 seconds:</p>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="web-development.jpg" style="width:100%">
+      <div class="text">Hi, My name is Pedro. Welcome to my page! I am a Full Stack Student Web Developer.</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="digital-human.jpg" style="width:100%">
+      <div class="text">A Web Developer can create a new world.</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="project.png" style="width:100%">
+      <div class="text">In my first project, I created a game. I have created this Portfolio as my second project. Enjoy!</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+    </script>
+
+    <footer id="rodape">
+        <p>Copyright &copy;2020 - by Pedro Caiado</p>
+    </footer>
+
+</body>
+</html>
+
+
