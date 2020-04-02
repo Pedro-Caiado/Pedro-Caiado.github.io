@@ -85,4 +85,11 @@ nav#menu a:hover {
     position: relative; top: 0vh;
 }
 
-
+.address a {
+    font-family: 'Courier New', Courier, monospace;
+}
+@media screen and (min-width: 576px) {
+    .address a {
+        font-size: 35px;
+    }
+}
