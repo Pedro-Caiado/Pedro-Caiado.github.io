@@ -1,6 +1,7 @@
-<a href="https://pedro-caiado.github.io/">The Page</a>
+1 - link (URL) published portfolio website
 
-<a href="https://github.com/Pedro-Caiado/Pedro-Caiado.github.io">The Repository</a>
+
+2 - link GitHub repository (repo)
 
 
 My portfolio aims to publicize my career in the past, present and future. I aim to show employers and people my knowledge as a person and as a professional. Considering that, I'm starting a new career in 2020, I would like to create online mechanisms to publish my projects and my career in general. 
@@ -10,3 +11,4 @@ The portfolio has a home page as a start, where the visitor can see 3 images on 
 As a mentioned before, I target anyone who is interested in technology to check my website out and if it’s possible give me some tips of how to improve my knowledge as a web developer. I target an employer to look my web site and give me an opportunity to be part of their team as a worker. 
 Considering my basic learning skills at the moment, I used HTML and CSS in this project. I had to improve a lot of my skills and get know a lot of subjects to get the Portfolio done properly.
 I combined HTML and CSS together to explore more structure and style. I didn’t use any Java Script at all. So, everything that was done it was coding by HTML and CSS.
+
