@@ -1,7 +1,3 @@
-
-https://github.com/Pedro-Caiado/Pedro-Caiado.github.io
-
-
 <a href="https://pedro-caiado.github.io/">The Page</a>
 
 <a href="https://github.com/Pedro-Caiado/Pedro-Caiado.github.io">The Repository</a>
